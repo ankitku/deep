@@ -1,0 +1,8 @@
+MIDlet-Name: deep
+MIDlet-Version: 1.0
+MIDlet-Vendor: ${application.vendor}
+MicroEdition-Profile: JAVAFX-1.1
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: deep,,deep.Main_MIDlet
+MIDlet-Jar-URL: deep.jar
+MIDlet-Jar-Size: 137318

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8082/servlet/org.netbeans.modules.javafx.project.JnlpDownloadServlet/C%3A/Users/Ankit/Documents/NetBeansProjects/deep/dist/" href="deep_browser.jnlp">
+    <information>
+        <title>deep</title>
+        <vendor>${application.vendor}</vendor>
+        <homepage href="http://localhost:8082/servlet/org.netbeans.modules.javafx.project.JnlpDownloadServlet/C%3A/Users/Ankit/Documents/NetBeansProjects/deep/dist/"/>
+        <description>deep</description>
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+        </shortcut>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.1/javafx-rt.jnlp"/>
+        <jar href="deep.jar" main="true"/>
+    </resources>
+    <applet-desc name="deep" main-class="com.sun.javafx.runtime.adapter.Applet" width="200" height="200">
+        <param name="MainJavaFXScript" value="deep.Main">
+    </applet-desc>
+</jnlp>
